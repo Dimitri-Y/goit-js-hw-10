@@ -18,3 +18,27 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.svg {
+  width: 40px;
+  height: 20px;
+}
+.svg.countries {
+  margin-right: 20px;
+}
+.text {
+  font-family: Helvetica Neue, Open Sans, sans-serif;
+  line-height: 1.6;
+  font-size: 13px;
+  color: #505050;
+}
+/* span {
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+} */
